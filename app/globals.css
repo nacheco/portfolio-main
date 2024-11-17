@@ -40,3 +40,31 @@ body {
     --radius: 0.5rem;
   }
 }
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lightDark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--deepPurple);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lightPurple);
+}
+
+::selection {
+  color: var(--lightPurple);
+  background-color: var(--dark);
+}
+
+
+
+
+
+
