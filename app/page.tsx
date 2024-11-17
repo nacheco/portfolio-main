@@ -1,9 +1,16 @@
 import React from 'react'
+import Hero from './components/Hero'
+import ProjectGrid from './components/ProjectGrid'
 
 const page = () => {
   return (
-    <div className='mx-auto max-w-screen-xl'>
-      <h1 className='text-4xl font-bold text-center'>Home</h1>
+    <div className='max-w-screen max-h-screen'>
+      <Hero />
+
+
+      <div className='flex flex-col items-center py-10'>
+        <ProjectGrid />
+      </div>
     </div>
   )
 }
