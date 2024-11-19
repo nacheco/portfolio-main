@@ -40,6 +40,7 @@ body {
     --radius: 0.5rem;
   }
 }
+
 /* Scrollbar Styles */
 ::-webkit-scrollbar {
   width: 6px;
@@ -59,12 +60,6 @@ body {
 }
 
 ::selection {
-  color: var(--lightPurple);
-  background-color: var(--dark);
+  color: var(--dark);
+  background-color: var(--deepPurple);
 }
-
-
-
-
-
-
